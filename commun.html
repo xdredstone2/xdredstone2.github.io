@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Livre commun</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body background="images/fond.png">
+    <div class="Bouton">
+      <section class="home1">
+        <input type="text" placeholder="Nombre de niveau" id="in"></input>
+        <button type="button" onclick="getValue();"> Cliquez</button>
+      </section>
+      <section class="home2">
+        <a href="index.html" id="comm"><strong>Accueil</strong></a>
+      </section>
+    </div>
+  <script>
+    function getValue() {
+// Sélectionner l'élément input et récupérer sa valeur
+  var level = document.getElementById("in").value;
+// Afficher la valeur
+  ;typeof level
+  if (level<30) {
+    alert("Pas assez de niveau");
+  }
+  else {
+    if (level<=32) {
+      var xp= 4.5*(level*level)-162.5*level+2220
+      ;typeof xp
+      var livre = xp / 1395
+      ;typeof livre
+      alert(livre);
+    }
+    else {
+      var xp= 2.5*(level*level)-40.5*level+360
+      ;typeof xp
+      var livre = xp / 1395
+      ;typeof livre
+      alert(livre);
+    }
+    }
+}
+  </script>
+
+  </body>
+</html>

@@ -1,0 +1,64 @@
+/* ########################Bouton######################## */
+#leg {
+  color: gold;
+  display: inline-block;
+  width: auto;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  vertical-align: middle;
+  margin: 5px 5px;
+  padding: 10px 10px;
+  border: none;
+  text-decoration: none;
+}
+#rare {
+  color: blue;
+  display: inline-block;
+  width: auto;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  vertical-align: middle;
+  margin: 5px 5px;
+  padding: 10px 10px;
+  border: none;
+  text-decoration: none;
+}
+#comm {
+  color: lime;
+  display: inline-block;
+  width: auto;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  vertical-align: middle;
+  margin: 5px 5px;
+  padding: 10px 10px;
+  border: none;
+  text-decoration: none;
+}
+#accueil {
+  position: relative;
+  margin: 0 auto;
+}
+.home1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate( -50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.button #leg {
+  background-color: yellow;
+}
+.home2 {
+  color: red;
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -ms-transform: translate( -50%, -50%);
+  transform: translate(-50%, -50%);
+}
