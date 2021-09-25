@@ -62,3 +62,12 @@
   -ms-transform: translate( -50%, -50%);
   transform: translate(-50%, -50%);
 }
+.site{
+  position: absolute;
+  font-family: cursive;
+  font-size: 70px;
+  font-style: normal;
+  color:white;
+  top: 0px;
+  left: 15%;
+}
